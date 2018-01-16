@@ -1,0 +1,60 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{
+	margin: 0px;
+	padding: 0px;
+}
+body,html{
+	color: #696969;
+	width:100%;
+	height: 100%;
+	touch-action: none;
+	/*font-size: 0.12rem;*/
+}
+h1,h2,h3,h4,h5,h6,b,strong{
+	font-weight:100;
+}
+i,em{
+	font-style:normal;
+}
+img{
+	border:0;
+	/*vertical-align:middle;*/
+}
+
+a{
+	text-decoration: none;
+	color: #696969;
+}
+a:hover{
+	text-decoration:underline;
+}
+
+li{
+	list-style: none;
+}
+input{
+	outline: none;
+}
+
+.clearfix:after{
+	content:" ";
+	height: 0rem;
+	overflow: hidden;
+	visibility: hidden;
+	clear:both;
+	display: block;
+}
+@font-face {font-family: "iconfont";
+  src: url('../icon-font/iconfont.eot?t=1508401631972'); /* IE9*/
+  src: url('../icon-font/iconfont.eot?t=1508401631972#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff;charset=utf-8;base64,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') format('woff'),
+  url('../icon-font/iconfont.ttf?t=1508401631972') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../icon-font/iconfont.svg?t=1508401631972#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:0.11rem;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
