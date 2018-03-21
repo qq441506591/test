@@ -1,6 +1,7 @@
 <template>
 <page pageId='discover'>
 	<h1>发现</h1>
+	<p>我随便改了点内容</p>
 </page>
 </template>
 

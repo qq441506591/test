@@ -1,6 +1,7 @@
 <template>
 <page pageId='mine'>
 	<h1>我的</h1>
+	<i>我在改改</i>
 </page>
 </template>
 
